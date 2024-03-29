@@ -1,0 +1,22 @@
+.chess {
+  margin: 0 20vw;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-rows: minmax(70px, auto);
+  grid-auto-columns: minmax(auto, 70px);
+  border: 2px solid black;
+  text-align: center;
+}
+.chess__cell {
+  border: 1px solid black;
+  font-weight: 700;
+  font-size: 24px;
+}
+.chess__black {
+  background: black;
+}
+.chess__point {
+  border: none;
+  align-self: center;
+  justify-self: center;
+}/*# sourceMappingURL=style.css.map */
